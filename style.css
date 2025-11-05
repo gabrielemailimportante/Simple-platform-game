@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background: #1e1f26;
+    color: #fff;
+    font-family: Inter, system-ui, Arial;
+  }
+  
+  .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  canvas {
+    background: linear-gradient(#87CEEB, #66B2FF);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .35);
+    border-radius: 8px;
+  }
+  
+  .ui {
+    position: fixed;
+    left: 16px;
+    top: 16px;
+    background: rgba(0, 0, 0, .35);
+    padding: 8px 12px;
+    border-radius: 8px;
+  }
+  
+  .ui b {
+    display: block;
+    margin-bottom: 6px;
+  }
